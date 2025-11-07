@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<th:block th:fragment="projects-section">
+    <section class="section projects" id="projects">
+        <div class="container">
+            <div class="section-title-container">
+               <h2 class="section-title">My Work </h2>
+                <p class="section-subtitle">
+                    Explore some of my recent projects, blogs, and more.
+                </p>
+            </div>
+
+            <div class="projects-container">
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img th:src="@{/images/snip-track-image.png}" alt="project">
+                        <div class="project-overlay"></div>
+                        <div class="project-tags">
+                            <span class="project-tag">Spring Boot</span>
+                            <span class="project-tag">Spring Security</span>
+                            <span class="project-tag">Data JPA</span>
+                            <span class="project-tag">MySQL</span>
+                            <span class="project-tag">AWS</span>
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">Postman</span>
+                            <span class="project-tag">Docker</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">SnipTrack (URL-Shortner)</h3>
+                        <p class="project-description">
+                            A modern URL shortener built with Spring Boot. Sniptrack makes sharing simple with click tracking and insightful analytics
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/Kota-Kun22/Sniptrack" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> Github
+                            </a>
+                            <a href="https://sniptrack.xyz/" class="project-link" target="_blank">
+                                Live Deployment  <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img th:src="@{/images/springKart.png}" alt="project">
+                        <div class="project-overlay"></div>
+                        <div class="project-tags">
+                            <span class="project-tag">Spring Boot</span>
+                            <span class="project-tag">Spring Security</span>
+                            <span class="project-tag">Data JPA</span>
+                            <span class="project-tag"> PostgreSQL</span>
+                            <span class="project-tag">AWS</span>
+                            <span class="project-tag">React</span>
+                            <span class="project-tag">Postman</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">SpringKart (Enterprise Marketplace Solution)</h3>
+                        <p class="project-description">
+                            Built a multi-vendor e-commerce platform using Spring Boot, React, and PostgreSQL with JWT auth, Stripe payments, and role-based access.
+                        </p>
+
+                        <div class="project-links">
+                            <a href="https://github.com/Kota-Kun22/SpringKart_Frontend/" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                            <a href="https://github.com/Kota-Kun22/SpringKart" class="project-link" target="_blank">
+                                View Code  <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img th:src="@{/images/rechargeEase.png}" alt="project">
+                        <div class="project-overlay"></div>
+                        <div class="project-tags">
+                            <span class="project-tag">Android</span>
+                            <span class="project-tag">Kotlin</span>
+                            <span class="project-tag">Firebase(Auth & Realtime DB)</span>
+                            <span class="project-tag">Authentication</span>
+                            <span class="project-tag">XML</span>
+                            <span class="project-tag">Gradle</span>
+                            <span class="project-tag">Git</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">RechargeEase (Recharge Management System)</h3>
+                        <p class="project-description">
+                            Streamlined mobile recharge tracking for local shops, featuring family-grouped accounts, expiry alerts, and payment tracking to replace error-prone manual bookkeeping.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://github.com/Kota-Kun22/RechargeEase-V2.1" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> Github
+                            </a>
+
+                        </div>
+                    </div>
+
+                </div>
+
+<!--                <div class="project-card">-->
+<!--                    <div class="project-image">-->
+<!--                        <img th:src="@{/images/thumbnail1.jpg}" alt="project">-->
+<!--                        <div class="project-overlay"></div>-->
+<!--                        <div class="project-tags">-->
+<!--                            <span class="project-tag">Spring Boot</span>-->
+<!--                            <span class="project-tag">Spring Security</span>-->
+<!--                            <span class="project-tag">Data JPA</span>-->
+<!--                            <span class="project-tag">MySQL</span>-->
+<!--                            <span class="project-tag">AWS</span>-->
+<!--                            <span class="project-tag">React</span>-->
+<!--                            <span class="project-tag">Postman</span>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="project-content">-->
+<!--                        <h3 class="project-title">Build REST APIs with Spring and Spring Boot</h3>-->
+<!--                        <p class="project-description">-->
+<!--                            This is a project that I have worked on.-->
+<!--                        </p>-->
+<!--                        <div class="project-links">-->
+<!--                            <a href="https://github.com/Kota-Kun22/SpringKart_Frontend/" class="project-link" target="_blank">-->
+<!--                                <i class="fab fa-github"></i> View Code-->
+<!--                            </a>-->
+<!--                            <a href="https://github.com/Kota-Kun22" class="project-link" target="_blank">-->
+<!--                                View Code  <i class="fas fa-arrow-right"></i>-->
+<!--                            </a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+
+<!--                </div>-->
+
+<!--                <div class="project-card">-->
+<!--                    <div class="project-image">-->
+<!--                        <img th:src="@{/images/thumbnail1.jpg}" alt="project">-->
+<!--                        <div class="project-overlay"></div>-->
+<!--                        <div class="project-tags">-->
+<!--                            <span class="project-tag">Spring Boot</span>-->
+<!--                            <span class="project-tag">Spring Security</span>-->
+<!--                            <span class="project-tag">Data JPA</span>-->
+<!--                            <span class="project-tag">MySQL</span>-->
+<!--                            <span class="project-tag">AWS</span>-->
+<!--                            <span class="project-tag">React</span>-->
+<!--                            <span class="project-tag">Postman</span>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="project-content">-->
+<!--                        <h3 class="project-title">Build REST APIs with Spring and Spring Boot</h3>-->
+<!--                        <p class="project-description">-->
+<!--                            This is a project that I have worked on.-->
+<!--                        </p>-->
+<!--                        <div class="project-links">-->
+<!--                            <a href="https://github.com/Kota-Kun22/SpringKart_Frontend/" class="project-link" target="_blank">-->
+<!--                                <i class="fab fa-github"></i> View Code-->
+<!--                            </a>-->
+<!--                            <a href="https://github.com/Kota-Kun22" class="project-link" target="_blank">-->
+<!--                                View Code  <i class="fas fa-arrow-right"></i>-->
+<!--                            </a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+
+<!--                </div>-->
+
+<!--                <div class="project-card">-->
+<!--                    <div class="project-image">-->
+<!--                        <img th:src="@{/images/thumbnail1.jpg}" alt="project">-->
+<!--                        <div class="project-overlay"></div>-->
+<!--                        <div class="project-tags">-->
+<!--                            <span class="project-tag">Spring Boot</span>-->
+<!--                            <span class="project-tag">Spring Security</span>-->
+<!--                            <span class="project-tag">Data JPA</span>-->
+<!--                            <span class="project-tag">MySQL</span>-->
+<!--                            <span class="project-tag">AWS</span>-->
+<!--                            <span class="project-tag">React</span>-->
+<!--                            <span class="project-tag">Postman</span>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="project-content">-->
+<!--                        <h3 class="project-title">Build REST APIs with Spring and Spring Boot</h3>-->
+<!--                        <p class="project-description">-->
+<!--                            This is a project that I have worked on.-->
+<!--                        </p>-->
+<!--                        <div class="project-links">-->
+<!--                            <a href="https://github.com/Kota-Kun22/SpringKart_Frontend/" class="project-link" target="_blank">-->
+<!--                                <i class="fab fa-github"></i> View Code-->
+<!--                            </a>-->
+<!--                            <a href="https://github.com/Kota-Kun22" class="project-link" target="_blank">-->
+<!--                                View Code  <i class="fas fa-arrow-right"></i>-->
+<!--                            </a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+
+<!--                </div>-->
+
+
+            </div>
+        </div>
+    </section>
+</th:block>
+</html>

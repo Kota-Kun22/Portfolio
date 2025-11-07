@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh Rastogi - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+          integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+
+</head>
+<body>
+
+    <!--Loading animation-->
+    <div th:replace="~{fragments/loader.html :: loader}"></div>
+
+
+    <!--Header-->
+    <div th:replace="~{fragments/header.html :: site-header}"></div>
+
+    <!--Hero section-->
+    <div th:replace="~{fragments/hero.html :: hero-section}"></div>
+
+    <!--About section-->
+    <div th:replace="~{fragments/about.html :: about-section}"></div>
+
+    <!--Projects section-->
+    <div th:replace="~{fragments/projects.html :: projects-section}"></div>
+
+    <!--Experience section-->
+    <div th:replace="~{fragments/experience.html :: experience-section}"></div>
+
+    <!--Achievements section-->
+    <div th:replace="~{fragments/achievements.html :: achievements-section}"></div>
+
+    <!--Contact section-->
+    <div th:replace="~{fragments/contact.html :: contact-section}"></div>
+
+    <!--footer section-->
+    <div th:replace="~{fragments/footer.html :: footer-section}"></div>
+
+    <!--background shapes -->
+    <div class="floating-shape shape-1"></div>
+    <div class="floating-shape shape-2"></div>
+    <div class="floating-shape shape-3"></div>
+
+
+
+
+    <!--custom script file-->
+    <script th:src="@{/js/script.js}"> </script>
+
+</body>
+</html>
